@@ -4,9 +4,9 @@
   "description": "Cucumber Framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tests_chrome_feature": "npx cypress run --spec cypress/e2e/Features/*.feature --browser chrome",
-    "tests_chrome_spec": "npx cypress run --spec cypress/e2e/*.cy.js --browser chrome"
+    "test:open": "npx cypress open --e2e --browser chrome",
+    "test:chrome:feature": "npx cypress run --browser chrome",
+    "test:chrome:spec": "npx cypress run --spec cypress/e2e/*.cy.js --browser chrome"
   },
   "keywords": [
     "cypress"
