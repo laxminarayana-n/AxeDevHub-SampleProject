@@ -13,7 +13,8 @@ module.exports = defineConfig(
       // implement node event listeners here
       on('file:preprocessor', cucumber())
     },
-    specPattern: "cypress/e2e/Features/*.feature"
+    specPattern: "cypress/e2e/Features/*.feature",
+    supportFile: "cypress/support/e2e.js"
   },
   defaultCommandTimeout: 10000,
 }),
