@@ -5,7 +5,7 @@ const cucumber = require('cypress-cucumber-preprocessor').default;
 module.exports = defineConfig(
   cypressConfig({
     axe: {
-      apiKey: '0916dab0-18a2-46e6-968a-adc44dcb1b0d'
+      apiKey: ''
     },
     e2e: {
       defaultCommandTimeout: 10000,
